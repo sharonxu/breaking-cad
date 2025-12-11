@@ -2,7 +2,7 @@ function About({ scrollY }) {
   const parallaxOffset = Math.max(0, (scrollY - 600) * 0.1)
 
   return (
-    <section id="about" className="min-h-screen flex items-center relative pt-36 pb-24 px-6 md:px-12 border-t border-steel/20">
+    <section id="about" className="min-h-screen flex items-center relative pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-24 items-center">
           {/* Left side - Text */}
