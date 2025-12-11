@@ -87,7 +87,7 @@ function PastProjects({ scrollY }) {
               <ul className="space-y-3 text-steel leading-relaxed">
                 <li className="flex gap-3">
                   <span className="text-machine-orange mt-1">→</span>
-                  <span>Developed graph neural networks for cybersecurity defense systems</span>
+                  <span>Developed graph neural networks for SIEM (Security Information and Event Management)</span>
                 </li>
               </ul>
             </div>
