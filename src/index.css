@@ -19,13 +19,13 @@
   
   body {
     @apply bg-off-black text-off-white font-sans;
+    font-size: 1.15rem;
   }
 
   /* Prevent FOUC (Flash of Unstyled Content) */
   html {
     visibility: visible;
     opacity: 1;
-    font-size: 115%;
   }
 
   ::selection {

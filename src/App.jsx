@@ -30,17 +30,17 @@ function App() {
       {/* Simple fixed nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 md:px-12">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <a href="#" className="font-mono text-sm font-semibold tracking-tight flex items-center gap-1.5">
+          <a href="#" className="font-mono text-base font-semibold tracking-tight flex items-center gap-1.5">
             <span className="border-2 border-machine-orange text-machine-orange px-1 py-0.5">
-              <span className="text-[6px] align-super">35</span>Br
+              <span className="text-[7px] align-super">35</span>Br
             </span>
-            <span className="text-xs">eaking</span>
+            <span className="text-sm">eaking</span>
             <span className="border-2 border-machine-orange text-machine-orange px-1 py-0.5">
-              <span className="text-[6px] align-super">20</span>Ca
+              <span className="text-[7px] align-super">20</span>Ca
             </span>
-            <span className="text-xs">D</span>
+            <span className="text-sm">D</span>
           </a>
-          <div className="hidden md:flex gap-8 font-mono text-sm">
+          <div className="hidden md:flex gap-8 font-mono text-base">
             <a href="#about" className="hover:text-machine-orange transition-colors">ABOUT</a>
             <a href="#projects" className="hover:text-machine-orange transition-colors">PROJECTS</a>
             <a href="#past-projects" className="hover:text-machine-orange transition-colors">PAST EXPERIENCE</a>
