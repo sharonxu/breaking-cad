@@ -3,10 +3,10 @@ function Projects({ scrollY }) {
 
   const projects = [
     {
-      title: "AUTONOMOUS HOME ASSISTANT ROBOT",
-      description: "Self-navigating robot with integrated robotic arm for household tasks. Features RGB camera, ultrasonic sensors, and LiDAR for real-time obstacle detection, mapping, and programmable task execution",
+      title: "LOW-COST MOBILE MANIPULATOR",
+      description: "Holonomic mobile robot with integrated manipulator arm, inspired by LeKiwi design principles. Features 3-wheel kiwi drive for omnidirectional movement, standardized modular base plates (20mm grid), dual RGB cameras, and industrial-grade construction. Combines precision-cut steel/aluminum base with 3D printed components for optimal cost and performance",
       status: "In Progress",
-      tech: ["Raspberry Pi", "OpenCV", "LiDAR", "Robotic Arm"]
+      tech: ["Raspberry Pi 5", "Kiwi Drive", "STS3215 Servos", "Modular Design", "LeRobot"]
     },
     {
       title: "CNC XY PLOTTER",

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
-import Tools from './components/Tools'
+import PastProjects from './components/PastProjects'
 import Contact from './components/Contact'
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
           <div className="hidden md:flex gap-8 font-mono text-sm">
             <a href="#about" className="hover:text-machine-orange transition-colors">ABOUT</a>
             <a href="#projects" className="hover:text-machine-orange transition-colors">PROJECTS</a>
-            <a href="#tools" className="hover:text-machine-orange transition-colors">TOOLS</a>
+            <a href="#past-projects" className="hover:text-machine-orange transition-colors">PAST PROJECTS</a>
             <a href="#contact" className="hover:text-machine-orange transition-colors">CONTACT</a>
           </div>
         </div>
@@ -44,7 +44,7 @@ function App() {
       <Hero scrollY={scrollY} />
       <About scrollY={scrollY} />
       <Projects scrollY={scrollY} />
-      <Tools scrollY={scrollY} />
+      <PastProjects scrollY={scrollY} />
       <Contact />
 
       {/* Footer */}
