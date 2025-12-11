@@ -9,6 +9,14 @@ function App() {
   const [scrollY, setScrollY] = useState(0)
 
   useEffect(() => {
+    // Scroll to top on page load/refresh
+    window.scrollTo(0, 0)
+    
+    // Disable browser scroll restoration
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual'
+    }
+
     const handleScroll = () => {
       setScrollY(window.scrollY)
     }
