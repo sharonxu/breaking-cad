@@ -42,7 +42,7 @@ function Projects({ scrollY }) {
   return (
     <section id="projects" className="min-h-screen pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-16">
+        <div className="mb-12">
           <h2 className="text-5xl md:text-7xl font-black mb-4">
             CURRENT
             <br />
