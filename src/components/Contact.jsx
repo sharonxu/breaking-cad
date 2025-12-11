@@ -53,6 +53,28 @@ function Contact() {
                 github.com/sharonxu
               </a>
             </div>
+
+            <div className="border-2 border-steel/40 p-6 hover:border-machine-orange transition-colors group">
+              <div className="font-mono text-sm text-machine-orange mb-2">FOUNDER'S CIRCLE</div>
+              <div className="space-y-2">
+                <a 
+                  href="https://luma.com/founders-circle-nyc" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-black group-hover:text-machine-orange transition-colors block"
+                >
+                  Events Calendar
+                </a>
+                <a 
+                  href="https://discord.gg/k8EphpDzM8" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-black group-hover:text-machine-orange transition-colors block"
+                >
+                  Join Discord
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
