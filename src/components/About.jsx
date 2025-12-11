@@ -21,7 +21,7 @@ function About({ scrollY }) {
               <br />
               <span className="text-machine-orange">STEEL</span>
             </h2>
-            <div className="space-y-6 text-lg text-steel leading-relaxed">
+            <div className="space-y-6 text-steel leading-relaxed">
               <p>
                 I'm Sharon Xu, an engineer exploring the convergence of artificial intelligence and physical fabrication.
               </p>

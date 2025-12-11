@@ -9,11 +9,11 @@ function Contact() {
               <br />
               <span className="text-machine-orange">SOMETHING</span>
             </h2>
-            <p className="text-xl text-steel mb-8 leading-relaxed">
+            <p className="text-steel mb-8 leading-relaxed">
               Working on physical AI? Need manufacturing expertise? 
               Want to collaborate on the future of fabrication?
             </p>
-            <p className="text-lg text-steel mb-12 leading-relaxed">
+            <p className="text-steel mb-12 leading-relaxed">
               I'm always interested in ambitious projects that push the boundaries 
               of what's possible when AI meets advanced manufacturing.
             </p>

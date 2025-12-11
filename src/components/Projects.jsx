@@ -67,12 +67,12 @@ function Projects({ scrollY }) {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
-              <p className="text-lg text-steel mb-6 leading-relaxed">
+              <p className="text-steel mb-6 leading-relaxed">
                 {projects[0].description}
               </p>
               <div className="flex flex-wrap gap-3">
                 {projects[0].tech.map((tech, i) => (
-                  <span key={i} className="px-4 py-2 border border-steel/40 font-mono text-sm">
+                  <span key={i} className="px-4 py-2 border border-steel/40 font-mono">
                     {tech}
                   </span>
                 ))}
@@ -91,12 +91,12 @@ function Projects({ scrollY }) {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </div>
-              <p className="text-lg text-steel mb-6 leading-relaxed">
+              <p className="text-steel mb-6 leading-relaxed">
                 {projects[0].description}
               </p>
               <div className="flex flex-wrap gap-3">
                 {projects[0].tech.map((tech, i) => (
-                  <span key={i} className="px-4 py-2 border border-steel/40 font-mono text-sm">
+                  <span key={i} className="px-4 py-2 border border-steel/40 font-mono">
                     {tech}
                   </span>
                 ))}
@@ -122,7 +122,7 @@ function Projects({ scrollY }) {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, i) => (
-                    <span key={i} className="px-3 py-1 border border-steel/40 font-mono text-xs">
+                    <span key={i} className="px-3 py-1 border border-steel/40 font-mono">
                       {tech}
                     </span>
                   ))}
@@ -144,7 +144,7 @@ function Projects({ scrollY }) {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, i) => (
-                    <span key={i} className="px-3 py-1 border border-steel/40 font-mono text-xs">
+                    <span key={i} className="px-3 py-1 border border-steel/40 font-mono">
                       {tech}
                     </span>
                   ))}

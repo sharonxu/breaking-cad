@@ -19,7 +19,7 @@ function PastProjects({ scrollY }) {
           {/* Production ML at Scale */}
           <div className="border-l-4 border-machine-orange pl-8">
             <h3 className="text-3xl font-black mb-4">PRODUCTION ML AT SCALE</h3>
-            <p className="text-lg text-steel leading-relaxed mb-8">
+            <p className="text-steel leading-relaxed mb-8">
               I spent years shipping production ML systems at scale. At <span className="text-off-white font-semibold">Indigo Ag</span>, 
               I led teams building multimodal AI and computer vision models that analyzed satellite imagery, weather patterns, 
               and soil data to predict agricultural outcomes. At <span className="text-off-white font-semibold">TripAdvisor</span>, 
@@ -126,10 +126,10 @@ function PastProjects({ scrollY }) {
           {/* Founder's Circle */}
           <div className="border-4 border-machine-orange bg-machine-orange/5 p-8 md:p-12">
             <h3 className="text-4xl md:text-5xl font-black mb-6 text-off-white">FOUNDER'S CIRCLE</h3>
-            <p className="text-xl text-off-white leading-relaxed mb-4">
+            <p className="text-off-white leading-relaxed mb-4">
               Connecting high-impact startups with <span className="text-machine-orange font-semibold">game-changing strategy</span>, operations, and marketing expertise.
             </p>
-            <p className="text-lg text-steel leading-relaxed mb-8">
+            <p className="text-steel leading-relaxed mb-8">
               Hands-on <span className="text-machine-orange font-semibold">AI workshops</span>, <span className="text-machine-orange font-semibold">hackathons</span>, 
               and <span className="text-machine-orange font-semibold">hardware builds</span> for founders going 0 to 1.
             </p>
@@ -156,7 +156,7 @@ function PastProjects({ scrollY }) {
           {/* Transition to Physical AI */}
           <div className="border-2 border-machine-orange p-8 md:p-12">
             <h3 className="text-3xl font-black mb-6 text-machine-orange">THE FUTURE IS PHYSICAL</h3>
-            <p className="text-lg text-steel leading-relaxed mb-6">
+            <p className="text-steel leading-relaxed mb-6">
               There's a massive opportunity at the intersection of AI and hardware, and I'm convinced the people who 
               understand both sides deeply will build the most interesting companies of the next decade. I'm diving 
               into the physical AI space, learning CNC machining and fabrication from the ground up.
