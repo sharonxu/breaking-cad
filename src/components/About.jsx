@@ -12,7 +12,7 @@ function About({ scrollY }) {
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-48 h-48 object-cover object-[center_20%] scale-125 border-4 border-machine-orange"
+                className="w-48 h-48 object-cover object-[center_35%] scale-125 border-4 border-machine-orange"
               />
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
@@ -43,7 +43,7 @@ function About({ scrollY }) {
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-full h-full object-cover object-[center_20%] scale-125"
+                className="w-full h-full object-cover object-[center_35%] scale-125"
               />
             </div>
             
