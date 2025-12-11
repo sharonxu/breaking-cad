@@ -46,6 +46,9 @@ function About({ scrollY }) {
                 className="w-64 h-64 object-cover border-4 border-machine-orange"
               />
             </div>
+            
+            <h3 className="text-2xl font-black mb-6 text-machine-orange font-mono">MANUFACTURING CAPABILITIES</h3>
+            
             <div className="border-l-4 border-machine-orange pl-6">
               <div className="text-5xl font-black font-mono mb-2 text-machine-orange">0.02mm</div>
               <div className="text-steel">Laser cutting precision</div>
@@ -57,6 +60,18 @@ function About({ scrollY }) {
             <div className="border-l-4 border-machine-orange pl-6">
               <div className="text-5xl font-black font-mono mb-2 text-machine-orange">½"</div>
               <div className="text-steel">Stainless steel cutting depth</div>
+            </div>
+            <div className="border-l-4 border-steel pl-6">
+              <div className="text-5xl font-black font-mono mb-2">3D</div>
+              <div className="text-steel">Multi-material printing</div>
+            </div>
+            <div className="border-l-4 border-machine-orange pl-6">
+              <div className="text-5xl font-black font-mono mb-2 text-machine-orange">600ft²</div>
+              <div className="text-steel">Woodshop access</div>
+            </div>
+            <div className="border-l-4 border-steel pl-6">
+              <div className="text-5xl font-black font-mono mb-2">MIG/TIG</div>
+              <div className="text-steel">Welding capability</div>
             </div>
           </div>
         </div>
