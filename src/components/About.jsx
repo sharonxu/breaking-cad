@@ -8,11 +8,11 @@ function About({ scrollY }) {
           {/* Left side - Text */}
           <div>
             {/* Profile picture for mobile */}
-            <div className="md:hidden mb-12 flex justify-center">
+            <div className="md:hidden mb-12 flex justify-center overflow-hidden">
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-48 h-48 object-cover border-4 border-machine-orange"
+                className="w-48 h-48 object-cover object-top scale-125 border-4 border-machine-orange"
               />
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
@@ -39,11 +39,11 @@ function About({ scrollY }) {
             style={{ transform: `translateY(${parallaxOffset}px)` }}
           >
             {/* Profile picture for desktop */}
-            <div className="hidden md:flex justify-start mb-12">
+            <div className="hidden md:flex justify-start mb-12 overflow-hidden w-64 h-64 border-4 border-machine-orange">
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-64 h-64 object-cover border-4 border-machine-orange"
+                className="w-full h-full object-cover object-top scale-125"
               />
             </div>
             
