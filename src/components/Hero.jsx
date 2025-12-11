@@ -13,7 +13,7 @@ function Hero({ scrollY }) {
       </div>
 
       <div className="relative z-10 max-w-5xl text-center scale-[1.27]">
-        <div className="mb-4 font-mono text-sm text-machine-orange uppercase tracking-wider">
+        <div className="mb-4 mt-8 font-mono text-sm text-machine-orange uppercase tracking-wider">
           Physical AI × Advanced Manufacturing
         </div>
         
