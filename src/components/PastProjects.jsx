@@ -25,7 +25,7 @@ function PastProjects({ scrollY }) {
               and soil data to predict agricultural outcomes. At <span className="text-off-white font-semibold">TripAdvisor</span>, 
               I developed NLP and feed ranking systems that shaped experiences for millions of users, shipping microservices 
               that processed massive amounts of data in real time. At <span className="text-off-white font-semibold">Element AI</span> under{' '}
-              <span className="text-off-white font-semibold">Yoshua Bengio</span>, I built graph neural networks for SIEM.
+              <span className="text-off-white font-semibold">Yoshua Bengio</span>, I built graph neural networks for cybersecurity threat detection and event management systems.
             </p>
           </div>
 
