@@ -109,11 +109,15 @@ function PastProjects({ scrollY }) {
               <ul className="space-y-3 text-steel leading-relaxed">
                 <li className="flex gap-3">
                   <span className="text-machine-orange mt-1">→</span>
-                  <span>Research master's degree under Marta C. González</span>
+                  <span>Proposed first generative stochastic model of multidimensional human activity, doubling average precision over second-best method</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-machine-orange mt-1">→</span>
-                  <span>Human and Mobility Networks Lab research</span>
+                  <span>Leveraged deep learning to model large-scale urban datasets: credit card transactions, call records, electrical load profiles</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Research master's degree under Marta C. González</span>
                 </li>
               </ul>
             </div>
