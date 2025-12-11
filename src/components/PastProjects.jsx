@@ -25,7 +25,10 @@ function PastProjects({ scrollY }) {
               and soil data to predict agricultural outcomes. At <span className="text-off-white font-semibold">TripAdvisor</span>, 
               I developed NLP and feed ranking systems that shaped experiences for millions of users, shipping microservices 
               that processed massive amounts of data in real time. At <span className="text-off-white font-semibold">Element AI</span> under{' '}
-              <span className="text-off-white font-semibold">Yoshua Bengio</span>, I built graph neural networks for cybersecurity threat detection and event management systems.
+              <span className="text-off-white font-semibold">Yoshua Bengio</span>, I built graph neural networks for cybersecurity threat detection and event management systems. 
+              At <span className="text-off-white font-semibold">MIT</span>, I earned a research master's degree working as a graduate research assistant 
+              in the <span className="text-off-white font-semibold">Human and Mobility Networks Lab</span> under{' '}
+              <span className="text-off-white font-semibold">Marta C. González</span>.
             </p>
           </div>
 
@@ -75,6 +78,42 @@ function PastProjects({ scrollY }) {
                 <li className="flex gap-3">
                   <span className="text-machine-orange mt-1">→</span>
                   <span>Built recommender systems and NLP frameworks ranking in top 5% engagement</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="border-2 border-steel/40 p-8 hover:border-machine-orange transition-colors">
+              <div className="font-mono text-sm text-machine-orange mb-2">2017 - 2018</div>
+              <h4 className="text-2xl font-black mb-4">Machine Learning Researcher</h4>
+              <div className="text-steel mb-4 font-semibold">Element AI</div>
+              <ul className="space-y-3 text-steel leading-relaxed">
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Worked under Yoshua Bengio on advanced ML research</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Built graph neural networks for cybersecurity threat detection</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Developed event management systems for security operations</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="border-2 border-steel/40 p-8 hover:border-machine-orange transition-colors">
+              <div className="font-mono text-sm text-machine-orange mb-2">RESEARCH MASTER'S</div>
+              <h4 className="text-2xl font-black mb-4">Graduate Research Assistant</h4>
+              <div className="text-steel mb-4 font-semibold">MIT - Human and Mobility Networks Lab</div>
+              <ul className="space-y-3 text-steel leading-relaxed">
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Research master's degree under Marta C. González</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Human and Mobility Networks Lab research</span>
                 </li>
               </ul>
             </div>
