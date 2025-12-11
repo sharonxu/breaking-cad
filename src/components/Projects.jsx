@@ -7,7 +7,7 @@ function Projects({ scrollY }) {
       description: "Holonomic mobile robot with integrated manipulator arm, inspired by LeKiwi design principles. Features 3-wheel kiwi drive for omnidirectional movement, standardized modular base plates (20mm grid), dual RGB cameras, and industrial-grade construction. Combines precision-cut steel/aluminum base with 3D printed components for optimal cost and performance",
       status: "In Progress",
       tech: ["Raspberry Pi 5", "Kiwi Drive", "STS3215 Servos", "Modular Design", "LeRobot"],
-      link: null // LeKiwi link pending
+      link: "https://github.com/SIGRobotics-UIUC/LeKiwi"
     },
     {
       title: "CNC XY PLOTTER",
