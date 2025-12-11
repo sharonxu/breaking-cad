@@ -19,7 +19,7 @@
   
   body {
     @apply bg-off-black text-off-white font-sans;
-    font-size: 1.15rem;
+    font-size: 1.38rem;
   }
 
   /* Prevent FOUC (Flash of Unstyled Content) */
