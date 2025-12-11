@@ -24,7 +24,8 @@ function PastProjects({ scrollY }) {
               I led teams building multimodal AI and computer vision models that analyzed satellite imagery, weather patterns, 
               and soil data to predict agricultural outcomes. At <span className="text-off-white font-semibold">TripAdvisor</span>, 
               I developed NLP and feed ranking systems that shaped experiences for millions of users, shipping microservices 
-              that processed massive amounts of data in real time.
+              that processed massive amounts of data in real time. At <span className="text-off-white font-semibold">Element AI</span> under{' '}
+              <span className="text-off-white font-semibold">Yoshua Bengio</span>, I built graph neural networks for SIEM.
             </p>
           </div>
 
@@ -74,20 +75,6 @@ function PastProjects({ scrollY }) {
                 <li className="flex gap-3">
                   <span className="text-machine-orange mt-1">→</span>
                   <span>Built recommender systems and NLP frameworks ranking in top 5% engagement</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="border-2 border-steel/40 p-8 hover:border-machine-orange transition-colors md:col-span-2">
-              <div className="font-mono text-sm text-machine-orange mb-2">2017 - 2018</div>
-              <h4 className="text-2xl font-black mb-4">Machine Learning Researcher</h4>
-              <div className="text-steel mb-4 font-semibold">
-                <span className="text-off-white">Element AI</span> under <span className="text-off-white">Yoshua Bengio</span>
-              </div>
-              <ul className="space-y-3 text-steel leading-relaxed">
-                <li className="flex gap-3">
-                  <span className="text-machine-orange mt-1">→</span>
-                  <span>Developed graph neural networks for SIEM (Security Information and Event Management)</span>
                 </li>
               </ul>
             </div>
