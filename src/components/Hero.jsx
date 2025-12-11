@@ -2,7 +2,7 @@ function Hero({ scrollY }) {
   const parallaxOffset = scrollY * 0.3
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-6 md:px-12">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-6 md:px-12 pt-16">
       {/* Background element with parallax */}
       <div 
         className="absolute top-0 left-0 w-full h-full transition-transform duration-100 ease-out"
@@ -12,8 +12,8 @@ function Hero({ scrollY }) {
         <div className="absolute bottom-1/3 left-1/4 w-px h-96 bg-steel/20 -rotate-12"></div>
       </div>
 
-      <div className="relative z-10 max-w-5xl text-center scale-[1.27]">
-        <div className="mb-4 mt-8 font-mono text-sm text-machine-orange uppercase tracking-wider">
+      <div className="relative z-10 max-w-5xl text-center scale-[1.27] origin-center">
+        <div className="mb-4 font-mono text-sm text-machine-orange uppercase tracking-wider">
           Physical AI × Advanced Manufacturing
         </div>
         
