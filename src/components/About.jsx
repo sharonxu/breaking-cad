@@ -8,11 +8,12 @@ function About({ scrollY }) {
           {/* Left side - Text */}
           <div>
             {/* Profile picture for mobile */}
-            <div className="md:hidden mb-12 flex justify-center overflow-hidden">
+            <div className="md:hidden mb-12 flex justify-center overflow-hidden w-48 h-48 border-4 border-machine-orange">
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-48 h-48 object-cover object-[center_35%] scale-125 border-4 border-machine-orange"
+                className="w-full h-full object-cover scale-150"
+                style={{ objectPosition: 'center 10%' }}
               />
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
@@ -43,7 +44,8 @@ function About({ scrollY }) {
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-full h-full object-cover object-[center_35%] scale-125"
+                className="w-full h-full object-cover scale-150"
+                style={{ objectPosition: 'center 10%' }}
               />
             </div>
             
