@@ -33,12 +33,12 @@ function Contact() {
             <div className="border-2 border-steel/40 p-6 hover:border-machine-orange transition-colors group">
               <div className="font-mono text-sm text-machine-orange mb-2">X</div>
               <a 
-                href="https://x.com/sharx" 
+                href="https://x.com/sharxist" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl font-black group-hover:text-machine-orange transition-colors"
               >
-                @sharx
+                @sharxist
               </a>
             </div>
 
