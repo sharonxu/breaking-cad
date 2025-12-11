@@ -77,17 +77,50 @@ function PastProjects({ scrollY }) {
                 </li>
               </ul>
             </div>
+
+            <div className="border-2 border-steel/40 p-8 hover:border-machine-orange transition-colors md:col-span-2">
+              <div className="font-mono text-sm text-machine-orange mb-2">2017 - 2018</div>
+              <h4 className="text-2xl font-black mb-4">Machine Learning Researcher</h4>
+              <div className="text-steel mb-4 font-semibold">
+                <span className="text-off-white">Element AI</span> under <span className="text-off-white">Yoshua Bengio</span>
+              </div>
+              <ul className="space-y-3 text-steel leading-relaxed">
+                <li className="flex gap-3">
+                  <span className="text-machine-orange mt-1">→</span>
+                  <span>Developed graph neural networks for cybersecurity defense systems</span>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Founder's Circle */}
-          <div className="border-l-4 border-machine-orange pl-8">
-            <h3 className="text-3xl font-black mb-4">BUILDING COMMUNITY</h3>
+          <div className="border-2 border-machine-orange p-8 md:p-12">
+            <h3 className="text-3xl font-black mb-6 text-machine-orange">FOUNDER'S CIRCLE</h3>
             <p className="text-lg text-steel leading-relaxed mb-4">
-              But the whole time, I wanted to build things I could actually touch. That tension led me to start 
-              <span className="text-off-white font-semibold"> Founder's Circle</span>, a community of 
-              <span className="text-machine-orange font-semibold"> 300+ builders in NYC</span> where we run workshops 
-              for founders not only on marketing and strategy, but also to develop critical AI, robotics, and hands-on hardware skills.
+              Connecting high-impact startups with game-changing strategy, operations, and marketing expertise.
             </p>
+            <p className="text-lg text-steel leading-relaxed mb-6">
+              Strategy, growth, and marketing sessions from experts – plus hands-on AI workshops, hackathons, 
+              and hardware builds for founders going 0 to 1.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a 
+                href="https://luma.com/founders-circle-nyc" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-machine-orange text-off-black font-mono font-semibold hover:bg-machine-orange/90 transition-colors text-center"
+              >
+                SUBSCRIBE TO EVENTS
+              </a>
+              <a 
+                href="https://discord.gg/k8EphpDzM8" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 border-2 border-machine-orange text-machine-orange font-mono font-semibold hover:bg-machine-orange hover:text-off-black transition-colors text-center"
+              >
+                JOIN DISCORD
+              </a>
+            </div>
           </div>
 
           {/* Transition to Physical AI */}
