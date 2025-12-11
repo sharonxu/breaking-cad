@@ -18,7 +18,7 @@ function Hero({ scrollY }) {
         </div>
         
         {/* Breaking Bad style title */}
-        <div className="mb-6 flex flex-col items-center">
+        <div className="mb-6 flex flex-col items-center scale-[1.08]">
           <div className="flex items-center justify-center gap-4">
             {/* Br periodic table element */}
             <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-4 md:p-5 relative">
