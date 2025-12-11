@@ -7,8 +7,24 @@
     @apply antialiased;
   }
   
+  /* Remove default focus outlines */
+  *:focus {
+    outline: none;
+  }
+  
+  /* Only show focus ring for keyboard navigation */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-steel;
+  }
+  
   body {
     @apply bg-off-black text-off-white font-sans;
+  }
+
+  /* Prevent FOUC (Flash of Unstyled Content) */
+  html {
+    visibility: visible;
+    opacity: 1;
   }
 
   ::selection {
