@@ -12,7 +12,7 @@ function Hero({ scrollY }) {
         <div className="absolute bottom-1/3 left-1/4 w-px h-96 bg-steel/20 -rotate-12"></div>
       </div>
 
-      <div className="relative z-10 max-w-5xl text-center">
+      <div className="relative z-10 max-w-5xl text-center pt-24">
         <div className="mb-8 font-mono text-sm text-machine-orange uppercase tracking-wider">
           Physical AI × Advanced Manufacturing
         </div>
@@ -21,22 +21,22 @@ function Hero({ scrollY }) {
         <div className="mb-6 flex flex-col items-center">
           <div className="flex items-center justify-center gap-4">
             {/* Br periodic table element */}
-            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-5 md:p-6 relative">
+            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-4 md:p-5 relative">
               <div className="text-sm font-mono text-machine-orange absolute top-1 md:top-2 left-2 md:left-3">35</div>
-              <div className="text-7xl md:text-9xl font-black text-machine-orange pt-2 md:pt-4">Br</div>
+              <div className="text-6xl md:text-8xl font-black text-machine-orange pt-2 md:pt-4">Br</div>
             </div>
-            <span className="text-6xl md:text-8xl font-black text-off-white">eaking</span>
+            <span className="text-5xl md:text-7xl font-black text-off-white">eaking</span>
           </div>
           <div className="flex items-center justify-center gap-4 mt-4">
             {/* Ca periodic table element */}
-            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-5 md:p-6 relative">
+            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-4 md:p-5 relative">
               <div className="text-sm font-mono text-machine-orange absolute top-1 md:top-2 left-2 md:left-3">20</div>
-              <div className="text-7xl md:text-9xl font-black text-machine-orange pt-2 md:pt-4">Ca</div>
+              <div className="text-6xl md:text-8xl font-black text-machine-orange pt-2 md:pt-4">Ca</div>
             </div>
-            <span className="text-6xl md:text-8xl font-black text-off-white">D</span>
+            <span className="text-5xl md:text-7xl font-black text-off-white">D</span>
           </div>
         </div>
-        <p className="text-xl md:text-2xl text-steel max-w-2xl leading-relaxed mx-auto">
+        <p className="text-lg md:text-xl text-steel max-w-2xl leading-relaxed mx-auto">
           Building the future of manufacturing where AI meets physical reality. 
           From vibe CAD to industrial-grade fabrication.
         </p>
