@@ -87,7 +87,7 @@ function PastProjects({ scrollY }) {
               Connecting high-impact startups with <span className="text-machine-orange font-semibold">game-changing strategy</span>, operations, and marketing expertise.
             </p>
             <p className="text-lg text-steel leading-relaxed mb-8">
-              Strategy, growth, and marketing sessions from experts – plus hands-on <span className="text-machine-orange font-semibold">AI workshops</span>, <span className="text-machine-orange font-semibold">hackathons</span>, 
+              Hands-on <span className="text-machine-orange font-semibold">AI workshops</span>, <span className="text-machine-orange font-semibold">hackathons</span>, 
               and <span className="text-machine-orange font-semibold">hardware builds</span> for founders going 0 to 1.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
