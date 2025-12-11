@@ -12,8 +12,8 @@ function About({ scrollY }) {
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-full h-full object-cover scale-150"
-                style={{ objectPosition: 'center 10%' }}
+                className="w-full h-full object-cover scale-110"
+                style={{ objectPosition: 'center 15%' }}
               />
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
@@ -44,8 +44,8 @@ function About({ scrollY }) {
               <img 
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
-                className="w-full h-full object-cover scale-150"
-                style={{ objectPosition: 'center 10%' }}
+                className="w-full h-full object-cover scale-110"
+                style={{ objectPosition: 'center 15%' }}
               />
             </div>
             
