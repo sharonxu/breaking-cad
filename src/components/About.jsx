@@ -54,7 +54,7 @@ function About({ scrollY }) {
               <div className="text-steel">Laser cutting precision</div>
             </div>
             <div className="border-l-4 border-steel pl-6">
-              <div className="text-5xl font-black font-mono mb-2">½"</div>
+              <div className="text-5xl font-black font-mono mb-2">6mm</div>
               <div className="text-steel">Stainless steel cutting depth</div>
             </div>
             <div className="border-l-4 border-machine-orange pl-6">
