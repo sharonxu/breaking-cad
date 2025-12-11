@@ -25,6 +25,7 @@
   html {
     visibility: visible;
     opacity: 1;
+    font-size: 115%;
   }
 
   ::selection {
