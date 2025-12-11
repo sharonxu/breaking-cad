@@ -81,21 +81,21 @@ function PastProjects({ scrollY }) {
           </div>
 
           {/* Founder's Circle */}
-          <div className="border-2 border-machine-orange p-8 md:p-12">
-            <h3 className="text-3xl font-black mb-6 text-machine-orange">FOUNDER'S CIRCLE</h3>
-            <p className="text-lg text-steel leading-relaxed mb-4">
-              Connecting high-impact startups with game-changing strategy, operations, and marketing expertise.
+          <div className="border-4 border-machine-orange bg-machine-orange/5 p-8 md:p-12">
+            <h3 className="text-4xl md:text-5xl font-black mb-6 text-off-white">FOUNDER'S CIRCLE</h3>
+            <p className="text-xl text-off-white leading-relaxed mb-4">
+              Connecting high-impact startups with <span className="text-machine-orange font-semibold">game-changing strategy</span>, operations, and marketing expertise.
             </p>
-            <p className="text-lg text-steel leading-relaxed mb-6">
-              Strategy, growth, and marketing sessions from experts – plus hands-on AI workshops, hackathons, 
-              and hardware builds for founders going 0 to 1.
+            <p className="text-lg text-steel leading-relaxed mb-8">
+              Strategy, growth, and marketing sessions from experts – plus hands-on <span className="text-machine-orange font-semibold">AI workshops</span>, <span className="text-machine-orange font-semibold">hackathons</span>, 
+              and <span className="text-machine-orange font-semibold">hardware builds</span> for founders going 0 to 1.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="https://luma.com/founders-circle-nyc" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-machine-orange text-off-black font-mono font-semibold hover:bg-machine-orange/90 transition-colors text-center"
+                className="px-8 py-4 bg-machine-orange text-off-black font-mono font-bold hover:bg-machine-orange/90 transition-colors text-center text-lg"
               >
                 SUBSCRIBE TO EVENTS
               </a>
@@ -103,7 +103,7 @@ function PastProjects({ scrollY }) {
                 href="https://discord.gg/k8EphpDzM8" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 border-2 border-machine-orange text-machine-orange font-mono font-semibold hover:bg-machine-orange hover:text-off-black transition-colors text-center"
+                className="px-8 py-4 border-2 border-off-white bg-off-white text-off-black font-mono font-bold hover:bg-off-white/90 transition-colors text-center text-lg"
               >
                 JOIN DISCORD
               </a>
