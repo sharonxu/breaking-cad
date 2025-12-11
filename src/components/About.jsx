@@ -53,13 +53,13 @@ function About({ scrollY }) {
               <div className="text-5xl font-black font-mono mb-2 text-machine-orange">0.02mm</div>
               <div className="text-steel">Laser cutting precision</div>
             </div>
-            <div className="border-l-4 border-steel pl-6">
-              <div className="text-5xl font-black font-mono mb-2">4-AXIS</div>
-              <div className="text-steel">CNC mill & lathe capability</div>
-            </div>
             <div className="border-l-4 border-machine-orange pl-6">
               <div className="text-5xl font-black font-mono mb-2 text-machine-orange">½"</div>
               <div className="text-steel">Stainless steel cutting depth</div>
+            </div>
+            <div className="border-l-4 border-steel pl-6">
+              <div className="text-5xl font-black font-mono mb-2">4-AXIS</div>
+              <div className="text-steel">CNC mill & lathe capability</div>
             </div>
             <div className="border-l-4 border-steel pl-6">
               <div className="text-5xl font-black font-mono mb-2">3D</div>
