@@ -6,13 +6,10 @@ function PastProjects({ scrollY }) {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <h2 className="text-5xl md:text-7xl font-black mb-4">
-            FROM SOFTWARE
+            PAST
             <br />
-            <span className="text-machine-orange">TO STEEL</span>
+            <span className="text-machine-orange">EXPERIENCE</span>
           </h2>
-          <p className="text-xl text-steel font-mono">
-            The best AI systems in the world still can't pick up a wrench. Or at least, not very well (yet).
-          </p>
         </div>
 
         <div 
