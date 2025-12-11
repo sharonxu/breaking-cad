@@ -61,16 +61,18 @@ function Contact() {
                   href="https://luma.com/founders-circle-nyc" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl font-black group-hover:text-machine-orange transition-colors block"
+                  className="text-xl font-black group-hover:text-machine-orange transition-colors flex items-center gap-3"
                 >
+                  <span className="text-2xl">📅</span>
                   Events Calendar
                 </a>
                 <a 
                   href="https://discord.gg/k8EphpDzM8" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xl font-black group-hover:text-machine-orange transition-colors block"
+                  className="text-xl font-black group-hover:text-machine-orange transition-colors flex items-center gap-3"
                 >
+                  <span className="text-2xl">💬</span>
                   Join Discord
                 </a>
               </div>
