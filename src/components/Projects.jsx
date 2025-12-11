@@ -3,10 +3,10 @@ function Projects({ scrollY }) {
 
   const projects = [
     {
-      title: "AUTONOMOUS ROBOTIC CAR",
-      description: "Self-navigating robot car with RGB camera, ultrasonic sensors, and LiDAR for real-time obstacle detection and mapping",
+      title: "AUTONOMOUS HOME ASSISTANT ROBOT",
+      description: "Self-navigating robot with integrated robotic arm for household tasks. Features RGB camera, ultrasonic sensors, and LiDAR for real-time obstacle detection, mapping, and programmable task execution",
       status: "In Progress",
-      tech: ["Raspberry Pi", "OpenCV", "LiDAR", "Ultrasonic"]
+      tech: ["Raspberry Pi", "OpenCV", "LiDAR", "Robotic Arm"]
     },
     {
       title: "CNC XY PLOTTER",
@@ -21,10 +21,16 @@ function Projects({ scrollY }) {
       tech: ["GPT-4", "CAD API", "Manufacturing AI"]
     },
     {
-      title: "ESP32 IOT SYSTEM",
-      description: "Advanced IoT automation project using ESP32 microcontroller with sensor networks and wireless communication",
-      status: "Learning",
-      tech: ["ESP32", "WiFi/BLE", "Sensors", "MQTT"]
+      title: "AUTOMATED PLANT GROWING SYSTEM",
+      description: "Precision-controlled grow chamber with IoT sensors for environmental monitoring and AI-powered optimization. Custom-fabricated with climate control, automated watering, and data logging",
+      status: "Planning",
+      tech: ["ESP32", "Environmental Sensors", "Climate Control", "Data Analytics"]
+    },
+    {
+      title: "INTERNET OF THINGS HOME SYSTEM",
+      description: "ESP32-based home automation network integrated with Home Assistant. Controls mechanical ventilation, awnings, and heat pumps while monitoring environmental data like crawl space humidity.",
+      status: "Active Hobby",
+      tech: ["ESP32", "Home Assistant", "Thread/Matter", "Sensors"]
     }
   ]
 
