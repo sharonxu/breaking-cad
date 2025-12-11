@@ -27,7 +27,7 @@ function PastProjects({ scrollY }) {
               that processed massive amounts of data in real time. At <span className="text-off-white font-semibold">Element AI</span> under{' '}
               <span className="text-off-white font-semibold">Yoshua Bengio</span>, I built graph neural networks for cybersecurity threat detection and event management systems. 
               At <span className="text-off-white font-semibold">MIT</span>, I earned a research master's degree working as a graduate research assistant 
-              in the <span className="text-off-white font-semibold">Human and Mobility Networks Lab</span> under{' '}
+              in the Human and Mobility Networks Lab under{' '}
               <span className="text-off-white font-semibold">Marta C. González</span>.
             </p>
           </div>
