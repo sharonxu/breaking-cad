@@ -31,9 +31,9 @@ function Contact() {
             </div>
 
             <div className="border-2 border-steel/40 p-6 hover:border-machine-orange transition-colors group">
-              <div className="font-mono text-sm text-machine-orange mb-2">TWITTER/X</div>
+              <div className="font-mono text-sm text-machine-orange mb-2">X</div>
               <a 
-                href="https://twitter.com/sharx" 
+                href="https://x.com/sharx" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl font-black group-hover:text-machine-orange transition-colors"
