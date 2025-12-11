@@ -29,7 +29,7 @@ function Projects({ scrollY }) {
     {
       title: "INTERNET OF THINGS HOME SYSTEM",
       description: "ESP32-based home automation network integrated with Home Assistant. Controls mechanical ventilation, awnings, and heat pumps while monitoring environmental data like crawl space humidity.",
-      status: "Active Hobby",
+      status: "Planning",
       tech: ["ESP32", "Home Assistant", "Thread/Matter", "Sensors"]
     }
   ]
