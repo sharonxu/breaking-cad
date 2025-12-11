@@ -13,7 +13,7 @@ function About({ scrollY }) {
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
                 className="w-full h-full object-cover object-top"
-                style={{ transform: 'scale(1.25)', transformOrigin: 'top center' }}
+                style={{ transform: 'scale(1.15)', transformOrigin: 'top center' }}
               />
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
@@ -45,7 +45,7 @@ function About({ scrollY }) {
                 src="/images/profile.png" 
                 alt="Sharon Xu" 
                 className="w-full h-full object-cover object-top"
-                style={{ transform: 'scale(1.25)', transformOrigin: 'top center' }}
+                style={{ transform: 'scale(1.15)', transformOrigin: 'top center' }}
               />
             </div>
             
