@@ -10,18 +10,18 @@ function Projects({ scrollY }) {
       link: "https://github.com/SIGRobotics-UIUC/LeKiwi"
     },
     {
-      title: "CNC XY PLOTTER",
-      description: "Custom-built XY plotter with multi-use toolhead for paint, charcoal, pen, and more. CoreXY motion system designed as a foundation for future CNC projects",
-      status: "Planning",
-      tech: ["CoreXY", "Stepper Motors", "Arduino", "G-code"],
-      link: "https://szymonkaliski.com/writing/2023-10-02-building-a-diy-pen-plotter"
-    },
-    {
       title: "VIBE CAD",
       description: "AI-powered CAD assistant that understands natural language and generates manufacturing-ready designs",
       status: "Active Development",
       tech: ["GPT-4", "CAD API", "Manufacturing AI"],
       link: null
+    },
+    {
+      title: "CNC XY PLOTTER",
+      description: "Custom-built XY plotter with multi-use toolhead for paint, charcoal, pen, and more. CoreXY motion system designed as a foundation for future CNC projects",
+      status: "Planning",
+      tech: ["CoreXY", "Stepper Motors", "Arduino", "G-code"],
+      link: "https://szymonkaliski.com/writing/2023-10-02-building-a-diy-pen-plotter"
     },
     {
       title: "AUTOMATED PLANT GROWING SYSTEM",
