@@ -21,19 +21,19 @@ function Hero({ scrollY }) {
         <div className="mb-6 flex flex-col items-center">
           <div className="flex items-center justify-center gap-4">
             {/* Br periodic table element */}
-            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-4 md:p-5 relative">
-              <div className="text-xs font-mono text-machine-orange absolute top-1 md:top-2 left-2 md:left-3">35</div>
-              <div className="text-5xl md:text-7xl font-black text-machine-orange pt-2 md:pt-3">Br</div>
+            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-5 md:p-6 relative">
+              <div className="text-sm font-mono text-machine-orange absolute top-1 md:top-2 left-2 md:left-3">35</div>
+              <div className="text-7xl md:text-9xl font-black text-machine-orange pt-2 md:pt-4">Br</div>
             </div>
-            <span className="text-4xl md:text-6xl font-black text-off-white">eaking</span>
+            <span className="text-6xl md:text-8xl font-black text-off-white">eaking</span>
           </div>
           <div className="flex items-center justify-center gap-4 mt-4">
             {/* Ca periodic table element */}
-            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-4 md:p-5 relative">
-              <div className="text-xs font-mono text-machine-orange absolute top-1 md:top-2 left-2 md:left-3">20</div>
-              <div className="text-5xl md:text-7xl font-black text-machine-orange pt-2 md:pt-3">Ca</div>
+            <div className="inline-block border-4 md:border-8 border-machine-orange bg-off-black p-5 md:p-6 relative">
+              <div className="text-sm font-mono text-machine-orange absolute top-1 md:top-2 left-2 md:left-3">20</div>
+              <div className="text-7xl md:text-9xl font-black text-machine-orange pt-2 md:pt-4">Ca</div>
             </div>
-            <span className="text-4xl md:text-6xl font-black text-off-white">D</span>
+            <span className="text-6xl md:text-8xl font-black text-off-white">D</span>
           </div>
         </div>
         <p className="text-xl md:text-2xl text-steel max-w-2xl leading-relaxed mx-auto">
