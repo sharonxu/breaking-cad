@@ -12,7 +12,7 @@ function Hero({ scrollY }) {
         <div className="absolute bottom-1/3 left-1/4 w-px h-96 bg-steel/20 -rotate-12"></div>
       </div>
 
-      <div className="relative z-10 max-w-5xl text-center scale-[1.15]">
+      <div className="relative z-10 max-w-5xl text-center scale-[1.27]">
         <div className="mb-4 font-mono text-sm text-machine-orange uppercase tracking-wider">
           Physical AI × Advanced Manufacturing
         </div>
