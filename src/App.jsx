@@ -43,7 +43,7 @@ function App() {
           <div className="hidden md:flex gap-8 font-mono text-sm">
             <a href="#about" className="hover:text-machine-orange transition-colors">ABOUT</a>
             <a href="#projects" className="hover:text-machine-orange transition-colors">PROJECTS</a>
-            <a href="#past-projects" className="hover:text-machine-orange transition-colors">PAST PROJECTS</a>
+            <a href="#past-projects" className="hover:text-machine-orange transition-colors">PAST EXPERIENCE</a>
             <a href="#contact" className="hover:text-machine-orange transition-colors">CONTACT</a>
           </div>
         </div>
