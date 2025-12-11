@@ -97,7 +97,7 @@ function PastProjects({ scrollY }) {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-machine-orange mt-1">→</span>
-                  <span>Developed event management systems for security operations</span>
+                  <span>Improved upon existing SIEM models for security operations</span>
                 </li>
               </ul>
             </div>
