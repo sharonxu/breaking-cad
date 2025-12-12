@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="min-h-screen">
       {/* Simple fixed nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 md:px-12">
+      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 md:px-12 bg-off-black">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <a href="#" className="font-mono text-lg font-semibold tracking-tight flex items-center gap-1.5">
             <span className="border-2 border-machine-orange text-machine-orange px-1 py-0.5">
