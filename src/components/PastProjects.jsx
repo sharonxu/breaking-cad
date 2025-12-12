@@ -1,8 +1,10 @@
 function PastProjects({ scrollY }) {
-  const parallaxOffset = Math.max(0, (scrollY - 2800) * 0.06)
+  // Only apply parallax on larger screens
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768
+  const parallaxOffset = isDesktop ? Math.max(0, (scrollY - 2800) * 0.06) : 0
 
   return (
-    <section id="past-projects" className="min-h-screen pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
+    <section id="past-projects" className="pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-5xl md:text-7xl font-black mb-4">

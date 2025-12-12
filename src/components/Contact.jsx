@@ -1,8 +1,8 @@
 function Contact() {
   return (
-    <section id="contact" className="min-h-screen flex items-center pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
+    <section id="contact" className="md:min-h-screen md:flex md:items-center pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-16">
           <div>
             <h2 className="text-5xl md:text-7xl font-black mb-12 leading-tight">
               LET'S BUILD
