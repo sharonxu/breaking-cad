@@ -62,28 +62,16 @@ function About({ scrollY }) {
               <div className="text-steel">Carbon steel cutting depth</div>
             </div>
             <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">CNC</div>
-              <div className="text-steel">Router capability</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">4-AXIS</div>
+              <div className="text-steel">CNC router</div>
             </div>
             <div className="border-l-4 border-steel pl-6">
               <div className="text-3xl md:text-5xl font-black font-mono mb-2">3D</div>
               <div className="text-steel">Multi-material printing</div>
             </div>
             <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">600ft²</div>
-              <div className="text-steel">Woodshop access</div>
-            </div>
-            <div className="border-l-4 border-steel pl-6">
-              <div className="text-3xl md:text-5xl font-black font-mono mb-2">CERAMICS</div>
-              <div className="text-steel">Lab & kiln access</div>
-            </div>
-            <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">TEXTILES</div>
-              <div className="text-steel">Studio access</div>
-            </div>
-            <div className="border-l-4 border-steel pl-6">
-              <div className="text-3xl md:text-5xl font-black font-mono mb-2">ELECTRONICS</div>
-              <div className="text-steel">Lab & test equipment</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">2,100 sq ft</div>
+              <div className="text-steel">Digital fabrication, woodshop access, ceramics studio, textile studio, electronics lab</div>
             </div>
           </div>
         </div>
