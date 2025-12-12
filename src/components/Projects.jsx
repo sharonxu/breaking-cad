@@ -6,7 +6,7 @@ function Projects({ scrollY }) {
   const projects = [
     {
       title: "VIBE CAD",
-      description: "Breaking CAD's AI-native design workflow: describe what you want (and optionally provide reference images) to generate manufacture-ready design files (CAD, STL, SVG). Built for fast iteration with real fabrication constraints - turn intent into parts you can actually make. Powered by a novel architecture that reasons about sketches, constraints, and fabrication rules, grounded in extensive engineering data gathered through real builds, process specifications, and vendor/tooling catalogs. Produces edit-ready SVG and CAD while respecting tolerances, clearances, and stock sizes.",
+      description: "Breaking CAD's AI-native design workflow: describe what you want (and optionally provide reference images) to generate manufacture-ready design files (CAD, STL, SVG). Built for fast iteration with real fabrication constraints. Powered by a novel architecture that reasons about sketches, constraints, and fabrication rules, grounded in extensive engineering data gathered through real builds, process specifications, and vendor/tooling catalogs. Produces edit-ready SVG and CAD while respecting tolerances, clearances, and stock sizes.",
       status: "Active Development",
       tech: ["Novel architecture", "Technical datasets", "SVG generation", "CAD generation"],
       link: null
