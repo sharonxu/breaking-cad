@@ -73,6 +73,14 @@ function About({ scrollY }) {
               <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">600ft²</div>
               <div className="text-steel">Woodshop access</div>
             </div>
+            <div className="border-l-4 border-steel pl-6">
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2">CERAMICS</div>
+              <div className="text-steel">Lab & kiln access</div>
+            </div>
+            <div className="border-l-4 border-machine-orange pl-6">
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">TEXTILES</div>
+              <div className="text-steel">Studio access</div>
+            </div>
           </div>
         </div>
       </div>
