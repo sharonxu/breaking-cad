@@ -5,18 +5,18 @@ function Projects({ scrollY }) {
 
   const projects = [
     {
+      title: "VIBE CAD",
+      description: "Breaking CAD's AI-native design workflow: describe what you want (and optionally provide reference images) to generate manufacturing-ready geometry and files (CAD, STL, SVG). Built for fast iteration with real fabrication constraints—turn intent into parts you can actually make.",
+      status: "Active Development",
+      tech: ["LLMs", "Vision", "CAD API", "Manufacturing"],
+      link: null
+    },
+    {
       title: "LOW-COST MOBILE MANIPULATOR",
       description: "Holonomic mobile robot with integrated manipulator arm, inspired by LeKiwi design principles. Features 3-wheel kiwi drive for omnidirectional movement, standardized modular base plates (20mm grid), dual RGB cameras, and industrial-grade construction. Combines precision-cut steel/aluminum base with 3D printed components for optimal cost and performance",
       status: "In Progress",
       tech: ["Raspberry Pi 5", "Kiwi Drive", "STS3215 Servos", "Modular Design", "LeRobot"],
       link: "https://github.com/SIGRobotics-UIUC/LeKiwi"
-    },
-    {
-      title: "VIBE CAD",
-      description: "AI-powered CAD assistant that understands natural language + image input, and outputs manufacturing-ready design files (CAD, STL, SVG) — speak products into existence.",
-      status: "Active Development",
-      tech: ["GPT-4", "CAD API", "Manufacturing AI"],
-      link: null
     },
     {
       title: "CNC XY PLOTTER",
