@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="md:min-h-screen md:flex md:items-center pt-20 pb-16 md:pt-28 md:pb-24 px-6 md:px-12 border-t border-steel/20">
+    <section id="contact" className="md:min-h-screen md:flex md:items-center pt-20 pb-16 md:pt-28 md:pb-24 px-6 md:px-12">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
           <div>
