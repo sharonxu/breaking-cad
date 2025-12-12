@@ -62,8 +62,8 @@ function About({ scrollY }) {
               <div className="text-steel">Carbon steel cutting depth</div>
             </div>
             <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">4-AXIS</div>
-              <div className="text-steel">CNC mill & lathe capability</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">CNC</div>
+              <div className="text-steel">Router capability</div>
             </div>
             <div className="border-l-4 border-steel pl-6">
               <div className="text-3xl md:text-5xl font-black font-mono mb-2">3D</div>
