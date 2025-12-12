@@ -8,7 +8,7 @@ function Projects({ scrollY }) {
       title: "VIBE CAD",
       description: "Breaking CAD's AI-native design workflow: speak your vision into existence. Describe what you want to build and/or provide reference images, and iterate to refine requirements step by step until the design is right. The system produces manufacture-ready design files (CAD, STL, SVG) that you can preview at any point in the process. Powered by a novel architecture with strong natural language understanding and spatial reasoning, it can reason about sketches, constraints, and fabrication rules, and it is grounded in extensive engineering data gathered through real builds, process specifications, and vendor and tooling catalogs. Produces edit-ready SVG and CAD while respecting tolerances, clearances, and stock sizes.",
       status: "Active Development",
-      tech: ["Novel architecture", "Technical datasets", "SVG generation", "CAD generation"],
+      tech: ["Novel LLM architecture", "Technical datasets", "SVG generation", "CAD generation"],
       link: null
     },
     {
