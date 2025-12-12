@@ -73,9 +73,9 @@ function About({ scrollY }) {
               <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">2,100 sq ft</div>
               <div className="text-steel">
   <a href="https://brooklynspark.com/space" className="text-white underline hover:text-gray-200">
-    Brooklyn Spark makerspace
+    Brooklyn Spark
   </a>
-  : Digital fabrication, woodshop access, ceramics studio, textile studio, electronics lab
+  : Digital fabrication, electronics lab, woodshop, ceramics studio, textile studio
 </div>            </div>
           </div>
         </div>
