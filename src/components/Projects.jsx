@@ -13,7 +13,7 @@ function Projects({ scrollY }) {
     },
     {
       title: "VIBE CAD",
-      description: "AI-powered CAD assistant that understands natural language and generates manufacturing-ready designs",
+      description: "AI-powered CAD assistant that understands natural language + image input, and outputs manufacturing-ready design files (CAD, STL, SVG) — speak products into existence.",
       status: "Active Development",
       tech: ["GPT-4", "CAD API", "Manufacturing AI"],
       link: null
