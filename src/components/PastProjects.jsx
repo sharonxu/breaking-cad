@@ -4,7 +4,7 @@ function PastProjects({ scrollY }) {
   const parallaxOffset = isDesktop ? Math.max(0, (scrollY - 2800) * 0.06) : 0
 
   return (
-    <section id="past-projects" className="pt-28 pb-24 px-6 md:px-12 border-t border-steel/20">
+    <section id="past-projects" className="md:min-h-screen pt-20 pb-16 md:pt-28 md:pb-24 px-6 md:px-12 border-t border-steel/20">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-5xl md:text-7xl font-black mb-4">
