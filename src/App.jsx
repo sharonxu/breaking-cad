@@ -85,7 +85,7 @@ function App() {
       <Contact />
 
       {/* Footer */}
-      <footer className="border-t border-steel/20 py-8 px-6 md:px-12">
+      <footer className="py-8 px-6 md:px-12">
         <div className="max-w-7xl mx-auto text-center text-sm text-steel font-mono">
           © 2025 Breaking CAD. Building the future, one layer at a time.
         </div>
