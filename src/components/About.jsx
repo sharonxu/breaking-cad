@@ -81,6 +81,10 @@ function About({ scrollY }) {
               <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">TEXTILES</div>
               <div className="text-steel">Studio access</div>
             </div>
+            <div className="border-l-4 border-steel pl-6">
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2">ELECTRONICS</div>
+              <div className="text-steel">Lab & test equipment</div>
+            </div>
           </div>
         </div>
       </div>
