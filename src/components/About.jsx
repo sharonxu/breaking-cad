@@ -36,7 +36,7 @@ function About({ scrollY }) {
 
           {/* Right side - Profile and Stats with parallax */}
           <div 
-            className="space-y-8 transition-transform duration-150 ease-out pl-8"
+            className="space-y-8 transition-transform duration-150 ease-out pl-0 md:pl-8"
             style={{ transform: `translateY(${parallaxOffset}px)` }}
           >
             {/* Profile picture for desktop */}
@@ -52,23 +52,23 @@ function About({ scrollY }) {
             <h3 className="text-2xl font-black mb-6 text-machine-orange font-mono">MANUFACTURING CAPABILITIES</h3>
             
             <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-5xl font-black font-mono mb-2 text-machine-orange">0.02mm</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">0.02mm</div>
               <div className="text-steel">Laser cutting precision</div>
             </div>
             <div className="border-l-4 border-steel pl-6">
-              <div className="text-5xl font-black font-mono mb-2">10mm</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2">10mm</div>
               <div className="text-steel">Carbon steel cutting depth</div>
             </div>
             <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-5xl font-black font-mono mb-2 text-machine-orange">4-AXIS</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">4-AXIS</div>
               <div className="text-steel">CNC mill & lathe capability</div>
             </div>
             <div className="border-l-4 border-steel pl-6">
-              <div className="text-5xl font-black font-mono mb-2">3D</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2">3D</div>
               <div className="text-steel">Multi-material printing</div>
             </div>
             <div className="border-l-4 border-machine-orange pl-6">
-              <div className="text-5xl font-black font-mono mb-2 text-machine-orange">600ft²</div>
+              <div className="text-3xl md:text-5xl font-black font-mono mb-2 text-machine-orange">600ft²</div>
               <div className="text-steel">Woodshop access</div>
             </div>
           </div>
