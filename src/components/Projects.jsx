@@ -9,7 +9,8 @@ function Projects({ scrollY }) {
       description: "With Breaking CAD's AI-native design workflow, you can speak your vision into existence. Describe what you want to build and/or provide reference images, and iterate to refine requirements step by step until the design is right. The system produces manufacture-ready files (CAD, STL, SVG) that you can preview at any point in the process. Powered by a novel model architecture with strong natural language understanding and spatial reasoning, our system can reason about sketches, constraints, and fabrication rules. Training data includes prompt-to-CAD/SVG pairs gathered through third-party annotation services, combined with engineering data from real builds, process specifications, and vendor catalogs. Produces manufacture-ready files while respecting tolerances, clearances, and stock sizes. Sign-ups for the alpha waitlist coming soon!",
       status: "Active Development",
       tech: ["Novel LLM architecture", "Technical datasets", "SVG generation", "CAD generation"],
-      link: null
+      link: "https://ghadinehme.github.io/videocad.github.io/",
+      thumbnail: "/images/breaking-cad-logo.png"
     },
     {
       title: "LOW-COST MOBILE MANIPULATOR",
@@ -58,12 +59,22 @@ function Projects({ scrollY }) {
           {/* Featured project - spans full width on first row */}
           {projects[0].link ? (
             <a href={projects[0].link} target="_blank" rel="noopener noreferrer" className="md:col-span-2 border-2 border-steel/40 p-8 md:p-12 hover:border-machine-orange transition-colors group cursor-pointer">
-              <div className="flex justify-between items-start mb-6">
+              <div className="flex justify-between items-start mb-6 gap-6">
                 <div>
                   <h3 className="text-4xl font-black mb-2 group-hover:text-machine-orange transition-colors">
                     {projects[0].title}
                   </h3>
                   <div className="font-mono text-sm text-machine-orange">{projects[0].status}</div>
+                </div>
+                <div className="hidden md:block">
+                  {projects[0].thumbnail && (
+                    <img
+                      src={projects[0].thumbnail}
+                      alt="Breaking CAD logo"
+                      loading="lazy"
+                      className="w-28 h-28 object-contain border border-steel/40 bg-black"
+                    />
+                  )}
                 </div>
                 <svg className="w-8 h-8 text-steel group-hover:text-machine-orange transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -82,12 +93,22 @@ function Projects({ scrollY }) {
             </a>
           ) : (
             <div className="md:col-span-2 border-2 border-steel/40 p-8 md:p-12 hover:border-machine-orange transition-colors group">
-              <div className="flex justify-between items-start mb-6">
+              <div className="flex justify-between items-start mb-6 gap-6">
                 <div>
                   <h3 className="text-4xl font-black mb-2 group-hover:text-machine-orange transition-colors">
                     {projects[0].title}
                   </h3>
                   <div className="font-mono text-sm text-machine-orange">{projects[0].status}</div>
+                </div>
+                <div className="hidden md:block">
+                  {projects[0].thumbnail && (
+                    <img
+                      src={projects[0].thumbnail}
+                      alt="Breaking CAD logo"
+                      loading="lazy"
+                      className="w-28 h-28 object-contain border border-steel/40 bg-black"
+                    />
+                  )}
                 </div>
                 <svg className="w-8 h-8 text-steel group-hover:text-machine-orange transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
