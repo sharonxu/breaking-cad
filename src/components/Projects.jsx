@@ -9,8 +9,7 @@ function Projects({ scrollY }) {
       description: "With Breaking CAD's AI-native design workflow, you can speak your vision into existence. Describe what you want to build and/or provide reference images, and iterate to refine requirements step by step until the design is right. The system produces manufacture-ready files (CAD, STL, SVG) that you can preview at any point in the process. Powered by a novel model architecture with strong natural language understanding and spatial reasoning, our system can reason about sketches, constraints, and fabrication rules. Training data includes prompt-to-CAD/SVG pairs gathered through third-party annotation services, combined with engineering data from real builds, process specifications, and vendor catalogs. Produces manufacture-ready files while respecting tolerances, clearances, and stock sizes. Sign-ups for the alpha waitlist coming soon!",
       status: "Active Development",
       tech: ["Novel LLM architecture", "Technical datasets", "SVG generation", "CAD generation"],
-      link: "https://ghadinehme.github.io/videocad.github.io/",
-      thumbnail: null
+      link: "https://ghadinehme.github.io/videocad.github.io/"
     },
     {
       title: "LOW-COST MOBILE MANIPULATOR",
@@ -31,14 +30,14 @@ function Projects({ scrollY }) {
       description: "Precision-controlled grow chamber with IoT sensors for environmental monitoring and AI-powered optimization. Custom-fabricated with climate control, automated watering, and data logging",
       status: "Planning",
       tech: ["ESP32", "Environmental Sensors", "Climate Control", "Data Analytics"],
-      link: null
+      link: "https://kylegabriel.com/projects/2020/06/automated-hydroponic-system-build.html"
     },
     {
       title: "INTERNET OF THINGS HOME SYSTEM",
       description: "ESP32-based home automation network integrated with Home Assistant. Controls mechanical ventilation, awnings, and heat pumps while monitoring environmental data like crawl space humidity.",
       status: "Planning",
       tech: ["ESP32", "Home Assistant", "Thread/Matter", "Sensors"],
-      link: null
+      link: "https://www.youtube.com/watch?v=2gmJtuaGHgw"
     }
   ]
 
