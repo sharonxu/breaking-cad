@@ -10,7 +10,7 @@ function Projects({ scrollY }) {
       status: "Active Development",
       tech: ["Novel LLM architecture", "Technical datasets", "SVG generation", "CAD generation"],
       link: "https://ghadinehme.github.io/videocad.github.io/",
-      thumbnail: "/images/breaking-cad-logo.png"
+      thumbnail: null
     },
     {
       title: "LOW-COST MOBILE MANIPULATOR",
@@ -66,16 +66,6 @@ function Projects({ scrollY }) {
                   </h3>
                   <div className="font-mono text-sm text-machine-orange">{projects[0].status}</div>
                 </div>
-                <div className="hidden md:block">
-                  {projects[0].thumbnail && (
-                    <img
-                      src={projects[0].thumbnail}
-                      alt="Breaking CAD logo"
-                      loading="lazy"
-                      className="w-28 h-28 object-contain border border-steel/40 bg-black"
-                    />
-                  )}
-                </div>
                 <svg className="w-8 h-8 text-steel group-hover:text-machine-orange transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -99,16 +89,6 @@ function Projects({ scrollY }) {
                     {projects[0].title}
                   </h3>
                   <div className="font-mono text-sm text-machine-orange">{projects[0].status}</div>
-                </div>
-                <div className="hidden md:block">
-                  {projects[0].thumbnail && (
-                    <img
-                      src={projects[0].thumbnail}
-                      alt="Breaking CAD logo"
-                      loading="lazy"
-                      className="w-28 h-28 object-contain border border-steel/40 bg-black"
-                    />
-                  )}
                 </div>
                 <svg className="w-8 h-8 text-steel group-hover:text-machine-orange transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
